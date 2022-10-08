@@ -5,7 +5,7 @@
 
 nav a {
     text-align: center;
-    color: #674C2E;
+    color: #FFBD84;
     text-decoration: none;
 }
 
@@ -27,16 +27,16 @@ main section {
 }
 
 body {
-    background-color: #8AE7E7;
+    background-color: white;
 }
 
 header {
-    background-color: #FFBD84;
+    background-color: #674C2E;
 }
 
 nav a:hover {
-    background-color: #FFBD84;
-    color: #674C2E;
+    background-color: #225F4E;
+    color: #8AE7E7;
 }
 
 .book, .join {
@@ -46,8 +46,8 @@ nav a:hover {
 }
 
 .book:hover, .join:hover {
-    background-color: #FFBD84;
-    color: #674C2E;
+    background-color: #225F4E;
+    color: #8AE7E7;
 }
 
 .msg {
@@ -55,16 +55,16 @@ nav a:hover {
 }
 
 footer {
-    background-color: #FFBD84;
-    color: #674C2E;
+    background-color: #674C2E;
+    color: #FFBD84;
 }
 
 .home-title {
-    color: #674C2E;
+    color: #225F4E;
 }
 
 h4 {
-    color: #674C2E;
+    color: #225F4E;
 }
 
 .msg h2 {
@@ -76,12 +76,12 @@ h4 {
 }
 
 footer a {
-    color: #674C2E;
+    color: #FFBD84;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #674C2E;
+    color: #8AE7E7;
 }
 
 .logo {
