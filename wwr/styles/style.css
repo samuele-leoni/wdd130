@@ -20,6 +20,10 @@ nav a {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero {
+    
     margin-top: -100px;
 }
 
@@ -29,11 +33,26 @@ nav a {
     z-index: -1;
 }
 
+.faq-main {
+    color: #674C2E;
+
+}
+
+.faq-main p {
+    margin: 100px;
+}
+
+.faq-main h2 {
+    font-family: 'Yatra One', Georgia, 'Times New Roman', Times, serif;
+}
+
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+}
 
+#hero-msg {
+    margin-top: 100px;
 }
 
 #hero-img {
@@ -181,7 +200,7 @@ footer .social img {
     grid-template-columns: repeat(10, 1fr);
 }
 
-.home-title {
+.home-title, .contactus-title, .faq-title {
     font-family: 'Yatra One', Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
     color: #225F4E;
